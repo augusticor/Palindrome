@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index" />
+    <meta name="description"
+        content="Palindrome number or word in JAVA, the code in JAVA for know if a word of a number is Palindrome. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward" />
+    <meta name="keywords" content="palindrome, java, java code, palindrome number, palindrome word, java palindrome" />
+
+    <meta name="og:title" property="og:title" content="Palindrome in JAVA" />
+    <meta name="og:description" property="og:description" content="Validate if a word or a number is Palindrome" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="shortcut icon" href="views/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="views/main.css" />
+
+    <title>How to know if a word is Palindrome in JAVA ?</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="main-title">Palindrome in JAVA</h1>
+        <section>
+            <article class="introduction-section">
+                <p><strong>
+                        <h2 class="inline-header">Palindrome</h2>
+                    </strong>
+                    is a word, number, phrase, or other sequence of characters which
+                    reads the same backward as forward, such as madam, racecar.
+                </p>
+                <p>
+                    Here you will learn <em class="not-em">how to validate or know if a word or number are
+                        <strong>Palindrome</strong> using the programming language<strong> JAVA</strong></em>
+                </p>
+            </article>
+            <aside>
+                <p class="introduction-section">If you want to fork or download the code repository in GitHub click the
+                    button below, and don´t forget to follow me.
+                </p>
+                <nav class="img-nav">
+                    <a href="https://github.com/augusticor/Palindrome" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/git-branch-512.png"
+                            alt="GitHub Icon, redirect to the repository where i have this code" class="github-img" />
+                    </a>
+                    <a href="https://github.com/augusticor" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-512.png"
+                            alt="Follow Me on GitHub" class="github-img" />
+                    </a>
+                </nav>
+            </aside>
+        </section>
+    </header>
+
+    <main>
+        <h4 class="introduction-section main-code"> Here's the main code for compare to words and know if are
+            Palindromes : </h4>
+        <section>
+            <pre class="code">
+                <code>
+ <span class="c-reserved-words">public static</span> String reverseWord(String word)
+ <span class="c-parenthesis">{</span>
+    String reverseWord = <span class="c-quotes">""</span>;
+    <span class="c-reserved-words">for</span> (<span class="c-reserved-words">int</span> i = word.length() - 1; i &gt;= 0; i--) <span class="c-parenthesis">
+    {</span>
+        reverseWord += word.charAt(i);
+    <span class="c-parenthesis">}</span>
+        
+    <span class="c-reserved-words">return</span> reverseWord;
+ <span class="c-parenthesis">}</span>
+</code>
+</pre>
+        </section>
+        <section class="introduction-section">
+            <h4>Now if you want to know if a word that writes the user by input is Palindrome or not.</h4>
+            <h5 class="subtitle-h5">The algorithm could be like:</h5>
+            <p>When compiling the application you should only request the string to be captured which will be of length
+                "n".
+                <br>
+                Then show the following results:
+                <br>
+                In case it is a palindrome, it must print the phrase
+            <blockquote>"The string entered is a palindrome"</blockquote>
+            If it is not a palindrome, you must print the phrase
+            <blockquote>"The string entered is NOT a palindrome" and the number of characters that matched to determine
+                whether or not it is a palindrome.</blockquote>
+            <h5 class="subtitle-h5">So here's the code:</h5>
+        </section>
+        <section class="introduction-section">
+            <h6 class="code-explain">The main method</h6>
+            <p>Get user word and manipulate it for better performance</p>
+            <img src="views/assets/main-method.JPG" alt="The main method code" class="code-imgs" />
+            <h6 class="code-explain">Remove accents</h6>
+            <p>Now remove the accents like latin ones and the 'ñ'</p>
+            <img src="views/assets/remove-accents.JPG" alt="Removing the accents" class="code-imgs" />
+            <h6>Count the coincidences of the words</h6>
+            <p>Count the coincidences if the word is very similar</p>
+            <img src="views/assets/count-coincidences.JPG" alt="Count coincidences of words" class="code-imgs" />
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer-img-nav">
+            <a href="https://github.com/augusticor/Palindrome" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/git-branch-512.png"
+                    alt="GitHub Icon, redirect to the repository where i have this code" class="footer-github-img" />
+            </a>
+            <p>augusticor</p>
+            <a href="https://github.com/augusticor" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-512.png"
+                    alt="Follow Me on GitHub" class="footer-github-img" />
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

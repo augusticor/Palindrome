@@ -1,0 +1,84 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.code {
+    background-color: #FEF5EE;
+    margin: 30px 4px 0 1px;
+}
+
+.code-explain {
+    font-size: 15px;
+}
+
+.code-imgs {
+    height: auto;
+    width: 100%;
+}
+
+.c-parenthesis {
+    color: blue;
+    font-weight: bold;
+}
+
+.c-quotes {
+    color: #2A00FF;
+}
+
+.c-reserved-words {
+    color: #7B0052;
+    font-weight: bold;
+}
+
+.footer-github-img {
+    width: 50px;
+}
+
+.footer-img-nav {
+    background-color: #FEF5EE;
+}
+
+.footer-img-nav, .img-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.github-img {
+    width: 100px;
+}
+
+.header {
+    text-align: center;
+}
+
+.inline-header {
+    display: inline;
+    font-size: .9em;
+}
+
+.introduction-section {
+    margin: 30px 25px 0 25px;
+    text-align: justify;
+}
+
+.main-code {
+    margin-top: 60px;
+}
+
+.main-title {
+    color: #784212;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.not-em {
+    font-style: normal;
+}
+
+.subtitle-h5 {
+    font-size: 20px;
+}
